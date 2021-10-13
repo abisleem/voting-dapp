@@ -5,7 +5,7 @@ import {
   Link
 } from "react-router-dom";
 
-// import Candidates from "./Candidates";
+import Candidates from "./Candidates";
 
 function AppRouter() {
   return (
@@ -31,9 +31,6 @@ function AppRouter() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/">
-            <Candidates />
-          </Route>
           <Route path="/candidate">
             <NewCandidate />
           </Route>
@@ -43,14 +40,13 @@ function AppRouter() {
           <Route path="/results">
             <Results />
           </Route>
+          <Route path="/">
+            <Candidates />
+          </Route>
         </Switch>
       </div>
     </Router>
   );
-}
-
-function Candidates() {
-  return <h2>Candidates</h2>;
 }
 
 function NewCandidate() {
