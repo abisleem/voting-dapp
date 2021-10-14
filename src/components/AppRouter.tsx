@@ -6,6 +6,8 @@ import {
 } from "react-router-dom";
 
 import Candidates from "./Candidates";
+import NewCandidate from "./NewCandidate";
+import Vote from "./Vote";
 
 function AppRouter() {
   return (
@@ -22,9 +24,6 @@ function AppRouter() {
             <li>
               <Link to="/vote">Vote</Link>
             </li>
-            <li>
-              <Link to="/results">Results</Link>
-            </li>
           </ul>
         </nav>
 
@@ -37,9 +36,6 @@ function AppRouter() {
           <Route path="/vote">
             <Vote />
           </Route>
-          <Route path="/results">
-            <Results />
-          </Route>
           <Route path="/">
             <Candidates />
           </Route>
@@ -47,18 +43,6 @@ function AppRouter() {
       </div>
     </Router>
   );
-}
-
-function NewCandidate() {
-  return <h2>New Candidate</h2>;
-}
-
-function Vote() {
-  return <h2>Vote</h2>;
-}
-
-function Results() {
-  return <h2>Results</h2>;
 }
 
 
