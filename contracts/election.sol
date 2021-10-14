@@ -25,10 +25,8 @@ contract Election {
     // Store Candidates Count
     uint public candidatesCount;
     
-    constructor(uint _openTime, uint _closeTime) {
+    constructor() {
         owner = msg.sender;
-        openTime = _openTime;
-        closeTime = _closeTime;
     }
 
     // voted event
@@ -52,6 +50,10 @@ contract Election {
         _;
     }
 
+    function setOpenAndCloseTimes(uint _openTime, uint _closeTime) public OnlyOwner {
+        openTime = _openTime;
+        closeTime = _closeTime;
+    }
 
     function addOfficialCandidate (string memory _name) public OnlyOwner  {
         candidatesCount ++;

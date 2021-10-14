@@ -1,5 +1,12 @@
 # voting-dapp
 
+## Dependencies
+Install these prerequisites to follow along with the tutorial. See free video tutorial or a full explanation of each prerequisite.
+- NPM: https://nodejs.org
+- Truffle: https://github.com/trufflesuite/truffle
+- Ganache: http://truffleframework.com/ganache/
+- Metamask: https://metamask.io/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
