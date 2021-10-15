@@ -32,7 +32,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - `npm install` from root dir
 - `npm install -g yarn`
-- navigate to /build/Election.json
+- navigate to /build/contracts/Election.json
   - copy the `abi` array to `ELECTION_ABI` in /src/config.js 
   - copy `address` under `networks` to `ELECTION_ADDRESS` in /src/config.js
 - `yarn start`
