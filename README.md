@@ -38,3 +38,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - `yarn start`
 - open app ([http://localhost:3000](http://localhost:3000)) in a browser with Metamask installed
 - connect Metamask to app
+
+
+## Some Docs & Resources
+- Ethereum Documentation: https://ethereum.org/en/developers/
+- Solidity Documentation: https://docs.soliditylang.org/en/v0.8.9/
+- Web3 Documentation: https://web3js.readthedocs.io/en/v1.5.2/web3-eth-contract.html
+- Online Solidity IDE: https://remix.ethereum.org/
+- Cool visualization of Blockchain protocols: https://eth.build/
